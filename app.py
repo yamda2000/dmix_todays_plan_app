@@ -39,13 +39,13 @@ def inject_global_styles() -> None:
         """
         <style>
             .app-card {
-                background-color: #ffffff;
+                background-color: #111111;
                 border: 1px solid #dde3ee;
                 border-radius: 16px;
                 padding: 1.5rem 1.8rem;
                 margin-bottom: 1.2rem;
                 box-shadow: 0 2px 6px rgba(15, 23, 42, 0.08);
-                color: inherit;
+                color: #ffffff;
             }
             .app-card h3 {
                 margin-top: 0;
@@ -73,10 +73,11 @@ def inject_global_styles() -> None:
                 margin: 1rem 0;
             }
             .app-metric {
-                background: #ffffff;
+                background: #111111;
                 border-radius: 12px;
                 padding: 0.9rem 1rem;
                 border: 1px solid #e3e8f2;
+                color: #ffffff;
             }
             .app-metric-label {
                 font-size: 0.85rem;
