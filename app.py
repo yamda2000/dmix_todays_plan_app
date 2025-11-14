@@ -39,7 +39,7 @@ def inject_global_styles() -> None:
         """
         <style>
             .app-card {
-                background-color: #f5f7fb;
+                background-color: #ffffff;
                 border: 1px solid #dde3ee;
                 border-radius: 16px;
                 padding: 1.5rem 1.8rem;
